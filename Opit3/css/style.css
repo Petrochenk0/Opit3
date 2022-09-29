@@ -1,0 +1,75 @@
+*{
+	font-family: Arial;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background: grey;
+}
+.zs{
+	margin:auto;
+	text-align:center;
+	padding:7em 0;
+}
+.zs h1{
+	text-align:center;
+}
+.zs p{
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:1em;
+}
+.zs .form1{
+	margin:0 auto;
+	width:50%;
+}
+.item input ,textarea{
+	display:block;
+	width:100%;
+	margin:1em;
+	padding:1em;
+}
+.zs .form1 .twoDiv{
+	display:flex;
+	justify-content: space-between;
+}
+.zs .form1 .twoDiv .item{
+	width:49%;
+}
+.zs .form1 input[type="text"],
+.zs .form1 input[type="email"],
+.zs .form1 input[type="submit"]{
+	width:100%;
+	padding:1em;
+	color:black;
+	background: #fff;
+	border:none;
+	outline: none;
+	margin-bottom:2em;
+	font-size:1em;
+}
+
+.zs .form1 .item textarea{
+	min-width:100%;
+	max-width:100%;
+	min-height:100px;
+	max-height:100px;
+}
+.zs .form1 input[type="submit"]:hover{
+	background-color: blue;
+	color:#fff;
+}
+.zs .form1 .item input:hover{
+	color:white;
+	background: black;
+}
+.zs .form1 .item textarea:hover{
+	color:white;
+	background: black;
+}
+.zs .form1 .but{
+	padding:1em;
+	margin:1em;
+}
